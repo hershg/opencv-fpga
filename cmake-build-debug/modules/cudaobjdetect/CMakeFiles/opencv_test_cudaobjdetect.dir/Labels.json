@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/test/test_objdetect.cpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaobjdetect", "AccuracyTest" ],
+		"name" : "opencv_test_cudaobjdetect"
+	}
+}

@@ -1,0 +1,45 @@
+# Target labels
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_arithm.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_buffer_pool.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_core.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_element_operations.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_gpumat.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_main.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_opengl.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_reductions.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_stream.cpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_precomp.hpp
+ Main
+ opencv_cudaarithm
+ AccuracyTest

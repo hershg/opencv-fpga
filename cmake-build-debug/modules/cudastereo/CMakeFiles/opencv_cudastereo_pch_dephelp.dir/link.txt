@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libopencv_cudastereo_pch_dephelp.a  CMakeFiles/opencv_cudastereo_pch_dephelp.dir/opencv_cudastereo_pch_dephelp.cxx.o
+/usr/bin/ranlib ../../lib/libopencv_cudastereo_pch_dephelp.a

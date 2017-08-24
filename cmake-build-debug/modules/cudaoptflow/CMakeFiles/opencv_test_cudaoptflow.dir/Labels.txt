@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_cudaoptflow
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudaoptflow/test/test_main.cpp
+ Main
+ opencv_cudaoptflow
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaoptflow/test/test_optflow.cpp
+ Main
+ opencv_cudaoptflow
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaoptflow/test/test_precomp.hpp
+ Main
+ opencv_cudaoptflow
+ AccuracyTest

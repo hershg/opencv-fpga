@@ -1,0 +1,404 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/block.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/reduce.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/scan.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/common.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/color.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/deriv.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/expr.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/reduction.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/warping.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/functional.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/copy.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/histogram.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/integral.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/reduce.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/transform.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/transpose.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/atomic.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/limits.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/tuple.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/type_traits.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/vec_math.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/reduce.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/scan.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/warp.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev.hpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/src/stub.cpp",
+			"labels" : [ "Main", "opencv_cudev", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudev", "Module" ],
+		"name" : "opencv_cudev"
+	}
+}

@@ -1,0 +1,332 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/include/opencv2/cudafilters.hpp",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/filtering.cpp",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.hpp",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.hpp",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.16sc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.16sc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.16sc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.16uc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.16uc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.16uc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.32fc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.32fc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.32fc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.32sc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.32sc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.32sc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.8uc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.8uc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/column_filter.8uc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/filter2d.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/median_filter.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.16sc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.16sc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.16sc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.16uc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.16uc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.16uc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.32fc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.32fc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.32fc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.32sc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.32sc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.32sc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.8uc1.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.8uc3.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/src/cuda/row_filter.8uc4.cu",
+			"labels" : [ "Main", "opencv_cudafilters", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.16sc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.16sc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.16sc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.16uc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.16uc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.16uc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.32fc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.32fc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.32fc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.32sc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.32sc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.32sc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.8uc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.8uc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_column_filter.8uc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_filter2d.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_median_filter.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.16sc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.16sc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.16sc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.16uc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.16uc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.16uc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.32fc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.32fc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.32fc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.32sc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.32sc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.32sc4.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.8uc1.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.8uc3.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafilters/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_row_filter.8uc4.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudafilters", "Module" ],
+		"name" : "opencv_cudafilters"
+	}
+}

@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opencv_imgproc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\checks\;CMake Files\cmake\templates\;CMake Files\cmake\FindCUDA\;CMake Files\modules\;CMake Files\modules\core\;CMake Files\modules\core\include\;CMake Files\modules\core\include\opencv2\;CMake Files\modules\core\include\opencv2\core\;CMake Files\modules\calib3d\;CMake Files\modules\cudaarithm\;CMake Files\modules\cudabgsegm\;CMake Files\modules\cudacodec\;CMake Files\modules\cudafeatures2d\;CMake Files\modules\cudafilters\;CMake Files\modules\cudaimgproc\;CMake Files\modules\cudalegacy\;CMake Files\modules\cudaobjdetect\;CMake Files\modules\cudaoptflow\;CMake Files\modules\cudastereo\;CMake Files\modules\cudawarping\;CMake Files\modules\cudev\;CMake Files\modules\cudev\test\;CMake Files\modules\features2d\;CMake Files\modules\flann\;CMake Files\modules\fpga\;CMake Files\modules\highgui\;CMake Files\modules\imgcodecs\;CMake Files\modules\imgproc\;CMake Files\modules\java\;CMake Files\modules\ml\;CMake Files\modules\objdetect\;CMake Files\modules\photo\;CMake Files\modules\python\;CMake Files\modules\python\python2\;CMake Files\modules\python\python3\;CMake Files\modules\shape\;CMake Files\modules\stitching\;CMake Files\modules\superres\;CMake Files\modules\ts\;CMake Files\modules\video\;CMake Files\modules\videoio\;CMake Files\modules\videostab\;CMake Files\modules\viz\;CMake Files\modules\world\;CMake Files\3rdparty\;CMake Files\3rdparty\ippicv\;CMake Files\3rdparty\libwebp\;CMake Files\3rdparty\openexr\;CMake Files\include\;CMake Files\doc\;CMake Files\data\;CMake Files\apps\;CMake Files\apps\traincascade\;CMake Files\apps\createsamples\;CMake Files\apps\annotation\;CMake Files\apps\visualisation\;CMake Files\apps\interactive-calibration\;CMake Files\apps\version\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_imgproc_pch_dephelp">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_imgproc_pch_dephelp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_imgproc_pch_dephelp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_imgproc_pch_dephelp/fast">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_imgproc_pch_dephelp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_imgproc_pch_dephelp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pch_Generate_opencv_imgproc">
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 pch_Generate_opencv_imgproc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pch_Generate_opencv_test_imgproc">
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 pch_Generate_opencv_test_imgproc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_imgproc">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_imgproc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCVAPI_EXPORTS"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_imgproc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_imgproc/fast">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_imgproc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCVAPI_EXPORTS"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_imgproc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test_imgproc_pch_dephelp">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_test_imgproc_pch_dephelp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_test_imgproc_pch_dephelp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test_imgproc_pch_dephelp/fast">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_test_imgproc_pch_dephelp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_test_imgproc_pch_dephelp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test_imgproc">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/bin/opencv_test_imgproc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_test_imgproc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test_imgproc/fast">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/bin/opencv_test_imgproc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_test_imgproc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_perf_imgproc">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/bin/opencv_perf_imgproc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_perf_imgproc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_perf_imgproc/fast">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/bin/opencv_perf_imgproc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_perf_imgproc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_perf_imgproc_pch_dephelp">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_perf_imgproc_pch_dephelp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_perf_imgproc_pch_dephelp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_perf_imgproc_pch_dephelp/fast">
+				<Option output="/home/intel/opencv-3.2.0/cmake-build-debug/lib/libopencv_perf_imgproc_pch_dephelp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/3rdparty/ippicv/ippicv_lnx/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/src"/>
+					<Add directory="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/cudev/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/core/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/ts/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/videoio/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/highgui/include"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/test"/>
+					<Add directory="/home/intel/opencv-3.2.0/modules/imgproc/perf"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 opencv_perf_imgproc_pch_dephelp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pch_Generate_opencv_perf_imgproc">
+				<Option working_dir="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 pch_Generate_opencv_perf_imgproc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/opencl_kernels_imgproc.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/opencl_kernels_imgproc.cpp.rule">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/opencl_kernels_imgproc.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/opencv_imgproc_pch_dephelp.cxx">
+			<Option target="opencv_imgproc_pch_dephelp"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/opencv_perf_imgproc_pch_dephelp.cxx">
+			<Option target="opencv_perf_imgproc_pch_dephelp"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/modules/imgproc/opencv_test_imgproc_pch_dephelp.cxx">
+			<Option target="opencv_test_imgproc_pch_dephelp"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/include/opencv2/imgproc.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/include/opencv2/imgproc/detail/distortion_model.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/include/opencv2/imgproc/hal/interface.h">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/include/opencv2/imgproc/imgproc.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/include/opencv2/imgproc/imgproc_c.h">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/include/opencv2/imgproc/types_c.h">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_3vs4.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_accumulate.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_blend.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_color.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_filters.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_gftt.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_houghLines.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_imgproc.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_imgwarp.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_matchTemplate.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_moments.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/opencl/perf_pyramid.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_bilateral.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_blur.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_canny.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_corners.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_cvt_color.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_distanceTransform.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_filter2d.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_floodfill.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_goodFeaturesToTrack.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_histogram.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_houghLines.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_integral.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_main.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_matchTemplate.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_moments.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_morph.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_phasecorr.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_precomp.hpp">
+			<Option target="opencv_perf_imgproc"/>
+			<Option target="opencv_perf_imgproc_pch_dephelp"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_pyramids.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_remap.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_resize.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_sepfilters.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_spatialgradient.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_threshold.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/perf/perf_warp.cpp">
+			<Option target="opencv_perf_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/_geom.h">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/accum.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/approx.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/blend.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/canny.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/clahe.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/color.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/colormap.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/connectedcomponents.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/contours.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/convhull.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/corner.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/cornersubpix.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/demosaicing.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/deriv.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/distransform.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/drawing.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/emd.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/featureselect.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/filter.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/filterengine.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/floodfill.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/gabor.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/gcgraph.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/generalized_hough.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/geometry.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/grabcut.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/hal_replacement.hpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/hershey_fonts.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/histogram.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/hough.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/imgwarp.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/intersection.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/linefit.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/lsd.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/main.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/matchcontours.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/min_enclosing_triangle.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/moments.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/morph.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/accumulate.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/bilateral.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/blend_linear.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/boxFilter.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/boxFilter3x3.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/calc_back_project.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/canny.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/clahe.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/corner.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/covardata.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/cvtcolor.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/filter2D.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/filter2DSmall.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/filterSepCol.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/filterSepRow.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/filterSep_singlePass.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/filterSmall.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/gaussianBlur3x3.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/gaussianBlur5x5.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/gftt.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/histogram.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/hough_lines.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/integral_sum.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/laplacian3.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/laplacian5.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/linearPolar.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/logPolar.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/match_template.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/medianFilter.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/moments.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/morph.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/morph3x3.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/precornerdetect.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/pyr_down.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/pyr_up.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/pyramid_up.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/remap.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/resize.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/sepFilter3x3.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/threshold.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/warp_affine.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/warp_perspective.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/opencl/warp_transform.cl">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/phasecorr.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/precomp.hpp">
+			<Option target="opencv_imgproc_pch_dephelp"/>
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/pyramids.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/rotcalipers.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/samplers.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/segmentation.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/shapedescr.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/smooth.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/spatialgradient.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/subdivision2d.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/sumpixels.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/tables.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/templmatch.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/thresh.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/undistort.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/src/utils.cpp">
+			<Option target="opencv_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_accumulate.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_blend.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_boxfilter.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_canny.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_color.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_filter2d.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_filters.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_gftt.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_histogram.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_houghlines.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_imgproc.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_match_template.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_medianfilter.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_pyramids.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_sepfilter2D.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/ocl/test_warp.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_approxpoly.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_bilateral_filter.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_boundingrect.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_canny.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_color.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_connectedcomponents.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_contours.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_convhull.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_cvtyuv.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_distancetransform.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_drawing.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_emd.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_filter.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_fitellipse.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_floodfill.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_goodfeaturetotrack.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_grabcut.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_histograms.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_houghLines.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_imgproc_umat.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_imgwarp.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_imgwarp_strict.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_intersection.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_lsd.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_main.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_moments.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_pc.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_precomp.hpp">
+			<Option target="opencv_test_imgproc_pch_dephelp"/>
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_templmatch.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_thresh.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/test/test_watershed.cpp">
+			<Option target="opencv_test_imgproc"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVMinDepVersions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVDetectCXXCompiler.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVCompilerOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVPCHSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVModule.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindLibsGrfmt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindWebP.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindOpenEXR.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindLibsGUI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindLibsVideo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindLibsPerf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindIPP.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVDetectCUDA.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindLAPACK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindMKL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVDetectPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVDetectApacheAnt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVDetectOpenCL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVFindMatlab.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVDetectVTK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVExtraTargets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVGenHeaders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVGenPkgconfig.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVGenAndroidMK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVGenConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVGenABI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/OpenCVPackaging.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/checks/fp16.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/checks/ffmpeg_test.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/checks/opencl.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/custom_hal.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/cvconfig.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/cvconfig.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/opencv_modules.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/opencv-XXX.pc.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/OpenCVConfig-CUDA.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/OpenCVConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/OpenCVConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/OpenCVConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/templates/OpenCVConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/cmake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/core/include/opencv2/core/version.hpp">
+			<Option virtualFolder="CMake Files\modules\core\include\opencv2\core\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaarithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaarithm\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaarithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaarithm\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaarithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaarithm\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudabgsegm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudabgsegm\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudabgsegm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudabgsegm\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudabgsegm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudabgsegm\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudacodec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudacodec\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudacodec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudacodec\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudacodec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudacodec\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudafeatures2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafeatures2d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudafeatures2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafeatures2d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudafeatures2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafeatures2d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudafilters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafilters\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudafilters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafilters\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudafilters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafilters\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaimgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaimgproc\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaimgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaimgproc\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaimgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaimgproc\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudalegacy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudalegacy\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudalegacy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudalegacy\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudalegacy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudalegacy\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaobjdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaobjdetect\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaobjdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaobjdetect\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaobjdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaobjdetect\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaoptflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaoptflow\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaoptflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaoptflow\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudaoptflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaoptflow\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudastereo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudastereo\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudastereo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudastereo\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudastereo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudastereo\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudawarping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudawarping\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudawarping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudawarping\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudawarping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudawarping\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudev\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudev\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudev\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudev/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudev\test\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/cudev/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudev\test\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/fpga/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\fpga\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/fpga/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\fpga\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/fpga/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\fpga\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/java/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\java\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/common.cmake">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/common.cmake">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/common.cmake">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/python2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python2\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/python2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python2\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/python2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python2\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/python/python3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python3\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/shape/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\shape\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/shape/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\shape\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/shape/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\shape\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\superres\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\superres\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\superres\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/videostab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videostab\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/videostab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videostab\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/videostab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videostab\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/viz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\viz\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/modules/world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\world\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/ippicv/downloader.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\ippicv\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libwebp\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libwebp\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/openexr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/openexr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\data\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/traincascade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\traincascade\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/traincascade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\traincascade\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/createsamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\createsamples\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/createsamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\createsamples\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/annotation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\annotation\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/annotation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\annotation\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/visualisation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\visualisation\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/visualisation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\visualisation\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/interactive-calibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\interactive-calibration\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/version/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\version\"/>
+		</Unit>
+		<Unit filename="/home/intel/opencv-3.2.0/apps/version/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\version\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,76 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/include/opencv2/cudaoptflow.hpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/brox.cpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/farneback.cpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/pyrlk.cpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/tvl1flow.cpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/cuda/farneback.cu",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/cuda/pyrlk.cu",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/src/cuda/tvl1flow.cu",
+			"labels" : [ "Main", "opencv_cudaoptflow", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaoptflow/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_farneback.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaoptflow/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_pyrlk.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaoptflow/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_tvl1flow.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaoptflow", "Module" ],
+		"name" : "opencv_cudaoptflow"
+	}
+}

@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/perf/perf_bgsegm.cpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/perf/perf_main.cpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/perf/perf_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "PerfTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudabgsegm", "PerfTest" ],
+		"name" : "opencv_perf_cudabgsegm"
+	}
+}

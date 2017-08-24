@@ -1,0 +1,41 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_arithm.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_core.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_element_operations.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_main.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_reductions.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "PerfTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaarithm", "PerfTest" ],
+		"name" : "opencv_perf_cudaarithm"
+	}
+}

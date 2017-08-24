@@ -1,0 +1,57 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/include/opencv2/cudabgsegm.hpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/src/mog.cpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/src/mog2.cpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/src/cuda/mog.cu",
+			"labels" : [ "Main", "opencv_cudabgsegm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/src/cuda/mog2.cu",
+			"labels" : [ "Main", "opencv_cudabgsegm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudabgsegm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mog.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudabgsegm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mog2.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudabgsegm", "Module" ],
+		"name" : "opencv_cudabgsegm"
+	}
+}

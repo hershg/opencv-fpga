@@ -1,0 +1,155 @@
+# Target labels
+ Main
+ opencv_cudaimgproc
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudaimgproc/include/opencv2/cudaimgproc.hpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/bilateral_filter.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/blend.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/canny.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/color.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/corners.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/generalized_hough.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/gftt.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/histogram.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/hough_circles.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/hough_lines.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/hough_segments.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/match_template.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/mean_shift.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/mssegmentation.cpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/precomp.hpp
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cvt_color_internal.h
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/bilateral_filter.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/blend.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/build_point_list.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/canny.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/clahe.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/color.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/corners.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/debayer.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/generalized_hough.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/gftt.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hist.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hough_circles.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hough_lines.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hough_segments.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/match_template.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/mean_shift.cu
+ Main
+ opencv_cudaimgproc
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bilateral_filter.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_blend.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_build_point_list.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_canny.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_clahe.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_color.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_corners.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_debayer.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_generalized_hough.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_gftt.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hist.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hough_circles.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hough_lines.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hough_segments.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_match_template.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mean_shift.cu.o

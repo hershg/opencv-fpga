@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_cudafilters
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudafilters/test/test_filters.cpp
+ Main
+ opencv_cudafilters
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudafilters/test/test_main.cpp
+ Main
+ opencv_cudafilters
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudafilters/test/test_precomp.hpp
+ Main
+ opencv_cudafilters
+ AccuracyTest

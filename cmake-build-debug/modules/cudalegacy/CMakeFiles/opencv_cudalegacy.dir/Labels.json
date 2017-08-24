@@ -1,0 +1,242 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCV.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCVBroxOpticalFlow.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCVPyramid.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NPP_staging.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/private.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/NCV.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/bm.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/bm_fast.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/calib3d.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/fgd.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/gmg.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/graphcuts.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/image_pyramid.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/interpolate_frames.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/needle_map.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVAlg.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVColorConversion.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVPixelOperations.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVRuntimeTemplates.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/fgd.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCV.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVBroxOpticalFlow.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVHaarObjectDetection.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVPyramid.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NPP_staging.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/bm.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/bm_fast.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/calib3d.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/ccomponetns.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/fgd.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/gmg.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/needle_map.cu",
+			"labels" : [ "Main", "opencv_cudalegacy", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCV.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCVBroxOpticalFlow.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCVHaarObjectDetection.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCVPyramid.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NPP_staging.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bm.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bm_fast.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_calib3d.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_ccomponetns.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_fgd.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_gmg.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_needle_map.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudalegacy", "Module" ],
+		"name" : "opencv_cudalegacy"
+	}
+}

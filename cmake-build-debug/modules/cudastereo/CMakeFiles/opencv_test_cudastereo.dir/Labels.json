@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/test/test_stereo.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudastereo", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudastereo", "AccuracyTest" ],
+		"name" : "opencv_test_cudastereo"
+	}
+}

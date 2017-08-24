@@ -1,0 +1,42 @@
+# https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/an/an807.pdf
+
+shutdown -h now
+sudo bash
+rmmod  aclpci_a10_ref_drv
+modprobe aclpci_a10_ref_drv
+killall -9 jtagd
+jtagconfig
+exit
+
+# Ensure that cable number 1 is the cable connected to the Arria 10 GX FPGA Development Kit with the following command:
+quartus_pgm -l
+# Run the jtagconfig command as follows to ensure that your Intel FPGA Download Cable driver is ready:
+jtagconfig
+cd intelFPGA_pro/17.0/hld/board/a10_ref/bringup/
+# Run the following command to update the MAX V CPLD system controller:
+quartus_pgm -c 1 -m JTAG -o "p;max5_150.pof@2"
+# Program the FPGA on your Arria 10 GX FPGA Development Kit with the top.sof file by running the following command:
+quartus_pgm -c 1 -m JTAG -o "p;top.sof"
+# Perform a soft reboot (sometimes called a warm reboot) of your host system:
+reboot
+
+lspci | grep -i altera
+aocl diagnose
+lsmod | grep acl
+
+
+sudo bash				#
+lspci | grep -i altera
+lsmod | grep acl
+sudo rmmod  aclpci_a10_ref_drv
+sudo modprobe aclpci_a10_ref_drv	#
+jtagconfig
+killall -9 jtagd			#
+jtagconfig				#
+exit					#
+
+# Extra stuff:
+cd intelFPGA_pro/17.0/quartus/bin
+# May need to have root permissions for command to work:
+sudo bash
+./jtagconfig 

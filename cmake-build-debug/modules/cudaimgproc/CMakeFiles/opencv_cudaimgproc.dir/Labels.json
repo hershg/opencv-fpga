@@ -1,0 +1,248 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/include/opencv2/cudaimgproc.hpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/bilateral_filter.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/blend.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/canny.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/color.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/corners.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/generalized_hough.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/gftt.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/histogram.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/hough_circles.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/hough_lines.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/hough_segments.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/match_template.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/mean_shift.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/mssegmentation.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cvt_color_internal.h",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/bilateral_filter.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/blend.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/build_point_list.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/canny.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/clahe.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/color.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/corners.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/debayer.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/generalized_hough.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/gftt.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hist.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hough_circles.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hough_lines.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/hough_segments.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/match_template.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/src/cuda/mean_shift.cu",
+			"labels" : [ "Main", "opencv_cudaimgproc", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bilateral_filter.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_blend.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_build_point_list.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_canny.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_clahe.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_color.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_corners.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_debayer.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_generalized_hough.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_gftt.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hist.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hough_circles.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hough_lines.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hough_segments.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_match_template.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaimgproc/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mean_shift.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaimgproc", "Module" ],
+		"name" : "opencv_cudaimgproc"
+	}
+}

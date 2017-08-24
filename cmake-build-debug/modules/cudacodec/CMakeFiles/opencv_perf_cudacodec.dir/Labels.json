@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/perf/perf_main.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/perf/perf_video.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/perf/perf_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "PerfTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudacodec", "PerfTest" ],
+		"name" : "opencv_perf_cudacodec"
+	}
+}

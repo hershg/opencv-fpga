@@ -1,0 +1,53 @@
+# Target labels
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_bilateral_filter.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_blend.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_canny.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_color.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_corners.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_gftt.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_histogram.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_hough.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_main.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_match_template.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_mean_shift.cpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_precomp.hpp
+ Main
+ opencv_cudaimgproc
+ AccuracyTest

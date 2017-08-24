@@ -1,0 +1,69 @@
+# Target labels
+ Main
+ opencv_superres
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/superres/include/opencv2/superres.hpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/include/opencv2/superres/optical_flow.hpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/btv_l1.cpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/btv_l1_cuda.cpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/frame_source.cpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/input_array_utility.cpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/optical_flow.cpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/super_resolution.cpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/opencl/superres_btvl1.cl
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/superres/opencl_kernels_superres.cpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/superres/opencl_kernels_superres.hpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/input_array_utility.hpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/precomp.hpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/ring_buffer.hpp
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/modules/superres/src/cuda/btv_l1_gpu.cu
+ Main
+ opencv_superres
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/superres/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_btv_l1_gpu.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/superres/opencl_kernels_superres.cpp.rule

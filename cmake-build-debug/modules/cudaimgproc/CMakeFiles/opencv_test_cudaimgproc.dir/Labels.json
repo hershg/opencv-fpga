@@ -1,0 +1,71 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_bilateral_filter.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_blend.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_canny.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_color.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_corners.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_gftt.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_histogram.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_hough.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_match_template.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_mean_shift.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaimgproc", "AccuracyTest" ],
+		"name" : "opencv_test_cudaimgproc"
+	}
+}

@@ -1,0 +1,35 @@
+Basic OpenCL FPGA example compilation:
+- Run su to change to root
+- Verify Arria 10 board is working
+  >>>	lspci | grep -i altera
+
+	05:00.0 Processing accelerators: Altera Corporation Device 2494 (rev 01)
+
+  >>>	aocl diagnose
+	aocl diagnose: Running diagnose from /home/username/intelFPGA_pro/17.0/hld/board/a10_ref/linux64/libexec
+
+	------------------------- acl0 -------------------------
+	Vendor: Intel(R) Corporation
+
+	Phys Dev Name  Status   Information
+
+	acla10_ref0   Passed   Arria 10 Reference Platform (acla10_ref0)
+                               PCIe dev_id = 2494, bus:slot.func = 05:00.00, Gen3 x4
+                               FPGA temperature = 47.1211 degrees C.
+
+	DIAGNOSTIC_PASSED
+	---------------------------------------------------------
+
+- Go to example folder and compile host program
+	cd /root/OpenCL_examples/vector_add
+
+	make clean
+	make
+
+- Do a quick compile check for  syntax error and resource utilization, this should finish in few seconds
+	aoc -c --board a10gx --report  device/vector_add.cl
+
+- If no error reported. Do a full OpenCL compile and bitstream generation . this will take an hour or so.
+	aoc  --board a10gx device/vector_add.cl -o bin/vector_add.aocx
+
+- Once compilation done, go to ./bin directory and should see a vector_add.aocx and host file, run ./host to test example

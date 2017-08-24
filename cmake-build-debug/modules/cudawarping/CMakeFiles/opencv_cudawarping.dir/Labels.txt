@@ -1,0 +1,56 @@
+# Target labels
+ Main
+ opencv_cudawarping
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudawarping/include/opencv2/cudawarping.hpp
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/pyramids.cpp
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/remap.cpp
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/resize.cpp
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/warp.cpp
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/precomp.hpp
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/pyr_down.cu
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/pyr_up.cu
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/remap.cu
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/resize.cu
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/warp.cu
+ Main
+ opencv_cudawarping
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_pyr_down.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_pyr_up.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_remap.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_resize.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_warp.cu.o

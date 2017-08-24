@@ -1,0 +1,259 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eeab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2eeab.dir/build.make CMakeFiles/cmTC_2eeab.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2eeab.dir/src.cxx.o
+/usr/bin/c++    -g   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_2eeab.dir/src.cxx.o -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_2eeab
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eeab.dir/link.txt --verbose=1
+/usr/bin/c++    -g    -rdynamic CMakeFiles/cmTC_2eeab.dir/src.cxx.o  -o cmTC_2eeab 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed2c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed2c1.dir/build.make CMakeFiles/cmTC_ed2c1.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed2c1.dir/src.cxx.o
+/usr/bin/c++    -g   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_ed2c1.dir/src.cxx.o -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_ed2c1
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed2c1.dir/link.txt --verbose=1
+/usr/bin/c++    -g    -rdynamic CMakeFiles/cmTC_ed2c1.dir/src.cxx.o  -o cmTC_ed2c1 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53abb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53abb.dir/build.make CMakeFiles/cmTC_53abb.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53abb.dir/src.c.o
+/usr/bin/cc   -g   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_53abb.dir/src.c.o   -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_53abb
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53abb.dir/link.txt --verbose=1
+/usr/bin/cc   -g    -rdynamic CMakeFiles/cmTC_53abb.dir/src.c.o  -o cmTC_53abb 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22fc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22fc2.dir/build.make CMakeFiles/cmTC_22fc2.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22fc2.dir/src.c.o
+/usr/bin/cc   -g   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_22fc2.dir/src.c.o   -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_22fc2
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22fc2.dir/link.txt --verbose=1
+/usr/bin/cc   -g    -rdynamic CMakeFiles/cmTC_22fc2.dir/src.c.o  -o cmTC_22fc2 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7a0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7a0d.dir/build.make CMakeFiles/cmTC_c7a0d.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7a0d.dir/src.cxx.o
+/usr/bin/c++    -g   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_c7a0d.dir/src.cxx.o -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_c7a0d
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7a0d.dir/link.txt --verbose=1
+/usr/bin/c++    -g    -rdynamic CMakeFiles/cmTC_c7a0d.dir/src.cxx.o  -o cmTC_c7a0d 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab5bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab5bb.dir/build.make CMakeFiles/cmTC_ab5bb.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab5bb.dir/src.c.o
+/usr/bin/cc   -g   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_ab5bb.dir/src.c.o   -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_ab5bb
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab5bb.dir/link.txt --verbose=1
+/usr/bin/cc   -g    -rdynamic CMakeFiles/cmTC_ab5bb.dir/src.c.o  -o cmTC_ab5bb 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b4ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b4ee.dir/build.make CMakeFiles/cmTC_4b4ee.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b4ee.dir/src.c.o
+/usr/bin/cc   -g   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_4b4ee.dir/src.c.o   -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_4b4ee
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b4ee.dir/link.txt --verbose=1
+/usr/bin/cc   -g    -rdynamic CMakeFiles/cmTC_4b4ee.dir/src.c.o  -o cmTC_4b4ee 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-misleading-indentation’'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d8da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d8da.dir/build.make CMakeFiles/cmTC_0d8da.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d8da.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -g   -Wno-misleading-indentation -o CMakeFiles/cmTC_0d8da.dir/src.cxx.o -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-misleading-indentation’
+Linking CXX executable cmTC_0d8da
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d8da.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -g    -rdynamic CMakeFiles/cmTC_0d8da.dir/src.cxx.o  -o cmTC_0d8da 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bddba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bddba.dir/build.make CMakeFiles/cmTC_bddba.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bddba.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -g   -o CMakeFiles/cmTC_bddba.dir/CheckIncludeFile.c.o   -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_bddba.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bddba.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bddba.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bddba/fast' failed
+make: *** [cmTC_bddba/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51712/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51712.dir/build.make CMakeFiles/cmTC_51712.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51712.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -g   -o CMakeFiles/cmTC_51712.dir/CheckIncludeFile.c.o   -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_51712.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_51712.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_51712.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_51712/fast' failed
+make: *** [cmTC_51712/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f9e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f9e9.dir/build.make CMakeFiles/cmTC_2f9e9.dir/build
+make[1]: Entering directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f9e9.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -g   -Wno-unused-private-field -o CMakeFiles/cmTC_2f9e9.dir/src.cxx.o -c /home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_2f9e9
+/home/intel/Downloads/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f9e9.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -g    -rdynamic CMakeFiles/cmTC_2f9e9.dir/src.cxx.o  -o cmTC_2f9e9 
+make[1]: Leaving directory '/home/intel/opencv-3.2.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+===== END =====
+

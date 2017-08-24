@@ -1,0 +1,309 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/affine.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/base.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/bufferpool.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/core.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda.inl.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda_stream_accessor.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda_types.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cvstd.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cvstd.inl.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/directx.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/eigen.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/fast_math.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ippasync.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/mat.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/mat.inl.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/matx.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/neon_utils.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ocl.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ocl_genbase.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/opengl.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/operations.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/optim.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ovx.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/persistence.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/private.cuda.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/private.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ptr.inl.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/saturate.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/sse_utils.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/traits.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/types.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/utility.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/va_intel.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/version.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/wimage.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/core_c.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cvdef.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/types_c.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/hal.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin_cpp.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin_neon.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin_sse.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/interface.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/ocl.cpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/opencl.cpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/options.cpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/arithm_core.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/arithm_simd.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/hal_internal.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/hal_replacement.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/aocl_utils.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/opencl.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/options.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/fpga/src/scoped_ptrs.h",
+			"labels" : [ "Main", "opencv_fpga", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_fpga", "Module" ],
+		"name" : "opencv_fpga"
+	}
+}

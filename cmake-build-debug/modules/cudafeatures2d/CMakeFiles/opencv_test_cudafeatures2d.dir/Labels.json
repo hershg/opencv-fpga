@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/test/test_features2d.cpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudafeatures2d", "AccuracyTest" ],
+		"name" : "opencv_test_cudafeatures2d"
+	}
+}

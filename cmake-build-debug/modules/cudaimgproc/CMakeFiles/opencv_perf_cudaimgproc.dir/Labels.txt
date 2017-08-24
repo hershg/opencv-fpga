@@ -1,0 +1,53 @@
+# Target labels
+ Main
+ opencv_cudaimgproc
+ PerfTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_bilateral_filter.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_blend.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_canny.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_color.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_corners.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_gftt.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_histogram.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_hough.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_main.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_match_template.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_mean_shift.cpp
+ Main
+ opencv_cudaimgproc
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_precomp.hpp
+ Main
+ opencv_cudaimgproc
+ PerfTest

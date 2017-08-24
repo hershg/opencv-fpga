@@ -1,0 +1,62 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/include/opencv2/cudaobjdetect.hpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/src/cascadeclassifier.cpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/src/hog.cpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/src/cuda/lbp.hpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/src/cuda/hog.cu",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaobjdetect/src/cuda/lbp.cu",
+			"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaobjdetect/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_hog.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaobjdetect/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_lbp.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaobjdetect", "Module" ],
+		"name" : "opencv_cudaobjdetect"
+	}
+}

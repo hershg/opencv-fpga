@@ -1,0 +1,133 @@
+# Target labels
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestCompact.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestDrawRects.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeApplication.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeLoader.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesFilter.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesGrow.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImage.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImageSquared.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestRectStdDev.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestResize.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestTranspose.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/main_nvidia.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_calib3d.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_labeling.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_main.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_nvidia.cpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/NCVAutoTestLister.hpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/NCVTest.hpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/NCVTestSourceProvider.hpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_precomp.hpp
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestCompact.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestDrawRects.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeApplication.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeLoader.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesFilter.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesGrow.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImage.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImageSquared.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestRectStdDev.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestResize.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestTranspose.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/test/main_test_nvidia.h
+ Main
+ opencv_cudalegacy
+ AccuracyTest

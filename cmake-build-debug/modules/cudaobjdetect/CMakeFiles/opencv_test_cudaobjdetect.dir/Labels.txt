@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_cudaobjdetect
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudaobjdetect/test/test_main.cpp
+ Main
+ opencv_cudaobjdetect
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaobjdetect/test/test_objdetect.cpp
+ Main
+ opencv_cudaobjdetect
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudaobjdetect/test/test_precomp.hpp
+ Main
+ opencv_cudaobjdetect
+ AccuracyTest

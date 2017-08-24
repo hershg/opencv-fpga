@@ -1,0 +1,315 @@
+# Target labels
+ Main
+ opencv_cudev
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/block.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/reduce.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/scan.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/common.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/color.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/deriv.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/expr.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/reduction.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/expr/warping.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/functional.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/copy.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/histogram.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/integral.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/reduce.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/transform.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/grid/transpose.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/atomic.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/limits.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/tuple.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/type_traits.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/vec_math.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/reduce.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/scan.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev/warp/warp.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/include/opencv2/cudev.hpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/modules/cudev/src/stub.cpp
+ Main
+ opencv_cudev
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp

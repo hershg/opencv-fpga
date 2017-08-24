@@ -1,0 +1,159 @@
+# Target labels
+ Main
+ opencv_cudalegacy
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCV.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCVBroxOpticalFlow.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCVHaarObjectDetection.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NCVPyramid.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/NPP_staging.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/include/opencv2/cudalegacy/private.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/NCV.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/bm.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/bm_fast.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/calib3d.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/fgd.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/gmg.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/graphcuts.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/image_pyramid.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/interpolate_frames.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/needle_map.cpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVAlg.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVColorConversion.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVPixelOperations.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVRuntimeTemplates.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/fgd.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/precomp.hpp
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCV.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVBroxOpticalFlow.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVHaarObjectDetection.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NCVPyramid.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/NPP_staging.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/bm.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/bm_fast.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/calib3d.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/ccomponetns.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/fgd.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/gmg.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/modules/cudalegacy/src/cuda/needle_map.cu
+ Main
+ opencv_cudalegacy
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCV.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCVBroxOpticalFlow.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCVHaarObjectDetection.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NCVPyramid.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_NPP_staging.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bm.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bm_fast.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_calib3d.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_ccomponetns.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_fgd.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_gmg.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudalegacy/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_needle_map.cu.o

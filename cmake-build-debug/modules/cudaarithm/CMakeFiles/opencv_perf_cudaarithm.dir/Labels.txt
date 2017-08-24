@@ -1,0 +1,29 @@
+# Target labels
+ Main
+ opencv_cudaarithm
+ PerfTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_arithm.cpp
+ Main
+ opencv_cudaarithm
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_core.cpp
+ Main
+ opencv_cudaarithm
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_element_operations.cpp
+ Main
+ opencv_cudaarithm
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_main.cpp
+ Main
+ opencv_cudaarithm
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_reductions.cpp
+ Main
+ opencv_cudaarithm
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudaarithm/perf/perf_precomp.hpp
+ Main
+ opencv_cudaarithm
+ PerfTest

@@ -1,0 +1,239 @@
+# Target labels
+ Main
+ opencv_fpga
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/affine.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/base.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/bufferpool.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/core.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda.inl.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda_stream_accessor.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cuda_types.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cvstd.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cvstd.inl.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/directx.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/eigen.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/fast_math.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ippasync.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/mat.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/mat.inl.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/matx.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/neon_utils.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ocl.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ocl_genbase.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/opengl.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/operations.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/optim.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ovx.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/persistence.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/private.cuda.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/private.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/ptr.inl.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/saturate.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/sse_utils.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/traits.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/types.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/utility.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/va_intel.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/version.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/wimage.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/core_c.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/cvdef.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/types_c.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/hal.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin_cpp.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin_neon.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/intrin_sse.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/include/opencv2/fpga/hal/interface.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/ocl.cpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/opencl.cpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/options.cpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/arithm_core.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/arithm_simd.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/hal_internal.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/hal_replacement.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/precomp.hpp
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/aocl_utils.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/opencl.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/options.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/modules/fpga/src/scoped_ptrs.h
+ Main
+ opencv_fpga
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp

@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_cudacodec
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudacodec/test/test_main.cpp
+ Main
+ opencv_cudacodec
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudacodec/test/test_video.cpp
+ Main
+ opencv_cudacodec
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudacodec/test/test_precomp.hpp
+ Main
+ opencv_cudacodec
+ AccuracyTest

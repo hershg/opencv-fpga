@@ -1,0 +1,94 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/include/opencv2/cudafeatures2d.hpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/brute_force_matcher.cpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/fast.cpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/feature2d_async.cpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/orb.cpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/bf_knnmatch.cu",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/bf_match.cu",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/bf_radius_match.cu",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/fast.cu",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/orb.cu",
+			"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bf_knnmatch.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bf_match.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bf_radius_match.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_fast.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_orb.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudafeatures2d", "Module" ],
+		"name" : "opencv_cudafeatures2d"
+	}
+}

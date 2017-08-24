@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_cudacodec
+ PerfTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudacodec/perf/perf_main.cpp
+ Main
+ opencv_cudacodec
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudacodec/perf/perf_video.cpp
+ Main
+ opencv_cudacodec
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudacodec/perf/perf_precomp.hpp
+ Main
+ opencv_cudacodec
+ PerfTest

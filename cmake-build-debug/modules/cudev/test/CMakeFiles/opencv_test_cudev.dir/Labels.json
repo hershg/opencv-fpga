@@ -1,0 +1,147 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_arithm_func.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_arithm_op.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_bitwize_op.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_cmp_op.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_color_cvt.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_cvt.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_deriv.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_integral.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_lut.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_pyramids.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_reduction.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_split_merge.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_test_warp.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/opencv_test_cudev_generated_transpose.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_arithm_func.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_arithm_op.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_bitwize_op.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_cmp_op.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_color_cvt.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_cvt.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_deriv.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_integral.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_lut.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_pyramids.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_reduction.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_split_merge.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_warp.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/transpose.cu",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudev/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudev", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudev" ],
+		"name" : "opencv_test_cudev"
+	}
+}

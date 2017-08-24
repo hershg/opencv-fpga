@@ -1,0 +1,56 @@
+# Target labels
+ Main
+ opencv_cudafeatures2d
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/include/opencv2/cudafeatures2d.hpp
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/brute_force_matcher.cpp
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/fast.cpp
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/feature2d_async.cpp
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/orb.cpp
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/precomp.hpp
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/bf_knnmatch.cu
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/bf_match.cu
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/bf_radius_match.cu
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/fast.cu
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/modules/cudafeatures2d/src/cuda/orb.cu
+ Main
+ opencv_cudafeatures2d
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bf_knnmatch.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bf_match.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bf_radius_match.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_fast.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudafeatures2d/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_orb.cu.o

@@ -1,0 +1,337 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/include/opencv2/cudaarithm.hpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/arithm.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/core.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/element_operations.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/reductions.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/absdiff_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/absdiff_scalar.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/add_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/add_scalar.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/add_weighted.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/bitwise_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/bitwise_scalar.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/cmp_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/cmp_scalar.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/copy_make_border.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/countnonzero.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/div_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/div_scalar.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/integral.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/lut.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/math.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/minmax.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/minmax_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/minmaxloc.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/mul_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/mul_scalar.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/mul_spectrums.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/norm.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/normalize.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/polar_cart.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/reduce.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/split_merge.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/sub_mat.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/sub_scalar.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/sum.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/threshold.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/src/cuda/transpose.cu",
+			"labels" : [ "Main", "opencv_cudaarithm", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_absdiff_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_absdiff_scalar.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_add_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_add_scalar.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_add_weighted.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bitwise_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_bitwise_scalar.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_cmp_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_cmp_scalar.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_copy_make_border.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_countnonzero.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_div_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_div_scalar.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_integral.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_lut.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_math.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_minmax.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_minmax_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_minmaxloc.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mul_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mul_scalar.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mul_spectrums.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_norm.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_normalize.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_polar_cart.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_reduce.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_split_merge.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_sub_mat.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_sub_scalar.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_sum.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_threshold.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_transpose.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaarithm", "Module" ],
+		"name" : "opencv_cudaarithm"
+	}
+}

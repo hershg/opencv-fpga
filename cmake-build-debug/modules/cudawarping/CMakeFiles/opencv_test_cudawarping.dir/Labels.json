@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/test_pyramids.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/test_remap.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/test_resize.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/test_warp_affine.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/test_warp_perspective.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/interpolation.hpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudawarping", "AccuracyTest" ],
+		"name" : "opencv_test_cudawarping"
+	}
+}

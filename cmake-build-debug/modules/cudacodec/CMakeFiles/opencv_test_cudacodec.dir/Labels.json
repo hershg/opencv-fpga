@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/test/test_video.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudacodec", "AccuracyTest" ],
+		"name" : "opencv_test_cudacodec"
+	}
+}

@@ -1,0 +1,71 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_bilateral_filter.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_blend.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_canny.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_color.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_corners.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_gftt.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_histogram.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_hough.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_main.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_match_template.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_mean_shift.cpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaimgproc/perf/perf_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaimgproc", "PerfTest" ],
+		"name" : "opencv_perf_cudaimgproc"
+	}
+}

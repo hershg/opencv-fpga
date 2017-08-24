@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/test/test_bgsegm.cpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudabgsegm/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudabgsegm", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudabgsegm", "AccuracyTest" ],
+		"name" : "opencv_test_cudabgsegm"
+	}
+}

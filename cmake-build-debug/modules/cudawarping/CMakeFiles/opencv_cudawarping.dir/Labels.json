@@ -1,0 +1,94 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/include/opencv2/cudawarping.hpp",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/pyramids.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/remap.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/resize.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/warp.cpp",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/pyr_down.cu",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/pyr_up.cu",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/remap.cu",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/resize.cu",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudawarping/src/cuda/warp.cu",
+			"labels" : [ "Main", "opencv_cudawarping", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_pyr_down.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_pyr_up.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_remap.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_resize.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_warp.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudawarping", "Module" ],
+		"name" : "opencv_cudawarping"
+	}
+}

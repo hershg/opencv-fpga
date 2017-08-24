@@ -1,0 +1,109 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/include/opencv2/cudastereo.hpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/disparity_bilateral_filter.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/stereobm.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/stereobp.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/stereocsbp.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/util.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/cuda/stereocsbp.hpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/cuda/stereobm.cu",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/cuda/stereobp.cu",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/cuda/stereocsbp.cu",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/src/cuda/util.cu",
+			"labels" : [ "Main", "opencv_cudastereo", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_disparity_bilateral_filter.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_stereobm.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_stereobp.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_stereocsbp.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_util.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudastereo", "Module" ],
+		"name" : "opencv_cudastereo"
+	}
+}

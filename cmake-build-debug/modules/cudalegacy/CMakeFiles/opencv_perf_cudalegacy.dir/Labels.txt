@@ -1,0 +1,25 @@
+# Target labels
+ Main
+ opencv_cudalegacy
+ PerfTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_bgsegm.cpp
+ Main
+ opencv_cudalegacy
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_calib3d.cpp
+ Main
+ opencv_cudalegacy
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_labeling.cpp
+ Main
+ opencv_cudalegacy
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_main.cpp
+ Main
+ opencv_cudalegacy
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_precomp.hpp
+ Main
+ opencv_cudalegacy
+ PerfTest

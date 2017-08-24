@@ -1,0 +1,36 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_bgsegm.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_calib3d.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_labeling.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_main.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/perf/perf_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "PerfTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudalegacy", "PerfTest" ],
+		"name" : "opencv_perf_cudalegacy"
+	}
+}

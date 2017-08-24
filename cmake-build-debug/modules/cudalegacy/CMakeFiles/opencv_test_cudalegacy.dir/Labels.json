@@ -1,0 +1,171 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestCompact.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestDrawRects.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeApplication.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeLoader.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesFilter.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesGrow.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImage.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImageSquared.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestRectStdDev.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestResize.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestTranspose.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/main_nvidia.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_calib3d.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_labeling.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_nvidia.cpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/NCVAutoTestLister.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/NCVTest.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/NCVTestSourceProvider.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestCompact.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestDrawRects.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeApplication.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHaarCascadeLoader.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesFilter.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestHypothesesGrow.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImage.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestIntegralImageSquared.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestRectStdDev.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestResize.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/TestTranspose.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudalegacy/test/main_test_nvidia.h",
+			"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudalegacy", "AccuracyTest" ],
+		"name" : "opencv_test_cudalegacy"
+	}
+}

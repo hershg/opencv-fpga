@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/test/test_filters.cpp",
+			"labels" : [ "Main", "opencv_cudafilters", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudafilters", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudafilters/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudafilters", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudafilters", "AccuracyTest" ],
+		"name" : "opencv_test_cudafilters"
+	}
+}

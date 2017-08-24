@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_cudafilters
+ PerfTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudafilters/perf/perf_filters.cpp
+ Main
+ opencv_cudafilters
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudafilters/perf/perf_main.cpp
+ Main
+ opencv_cudafilters
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudafilters/perf/perf_precomp.hpp
+ Main
+ opencv_cudafilters
+ PerfTest

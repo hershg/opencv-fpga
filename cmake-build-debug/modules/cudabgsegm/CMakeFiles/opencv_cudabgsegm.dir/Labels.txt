@@ -1,0 +1,33 @@
+# Target labels
+ Main
+ opencv_cudabgsegm
+ Module
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudabgsegm/include/opencv2/cudabgsegm.hpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/intel/opencv-3.2.0/modules/cudabgsegm/src/mog.cpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/intel/opencv-3.2.0/modules/cudabgsegm/src/mog2.cpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/intel/opencv-3.2.0/modules/cudabgsegm/src/precomp.hpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/intel/opencv-3.2.0/modules/cudabgsegm/src/cuda/mog.cu
+ Main
+ opencv_cudabgsegm
+ Module
+/home/intel/opencv-3.2.0/modules/cudabgsegm/src/cuda/mog2.cu
+ Main
+ opencv_cudabgsegm
+ Module
+/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h
+/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudabgsegm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mog.cu.o
+/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudabgsegm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mog2.cu.o

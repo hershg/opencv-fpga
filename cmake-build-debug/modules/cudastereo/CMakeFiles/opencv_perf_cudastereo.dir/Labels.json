@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/perf/perf_main.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/perf/perf_stereo.cpp",
+			"labels" : [ "Main", "opencv_cudastereo", "PerfTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudastereo/perf/perf_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudastereo", "PerfTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudastereo", "PerfTest" ],
+		"name" : "opencv_perf_cudastereo"
+	}
+}

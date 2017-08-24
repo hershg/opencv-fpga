@@ -1,0 +1,127 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/include/opencv2/cudacodec.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/cuvid_video_source.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/ffmpeg_video_source.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/frame_queue.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/thread.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_decoder.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_parser.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_reader.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_source.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_writer.cpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/cuvid_video_source.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/ffmpeg_video_source.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/frame_queue.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/thread.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_decoder.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_parser.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/video_source.hpp",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/cuda/nv12_to_rgb.cu",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudacodec/src/cuda/rgb_to_yv12.cu",
+			"labels" : [ "Main", "opencv_cudacodec", "Module" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/cvconfig.h"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudacodec/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_nv12_to_rgb.cu.o"
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/cmake-build-debug/modules/cudacodec/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_rgb_to_yv12.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudacodec", "Module" ],
+		"name" : "opencv_cudacodec"
+	}
+}

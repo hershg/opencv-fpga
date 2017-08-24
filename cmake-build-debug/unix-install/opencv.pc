@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.2.0
+Libs: -L${exec_prefix}/lib -lopencv_cudabgsegm -lopencv_cudaobjdetect -lopencv_cudastereo -lopencv_fpga -lopencv_shape -lopencv_stitching -lopencv_cudafeatures2d -lopencv_superres -lopencv_cudacodec -lopencv_videostab -lopencv_cudaoptflow -lopencv_cudalegacy -lopencv_calib3d -lopencv_features2d -lopencv_objdetect -lopencv_highgui -lopencv_videoio -lopencv_photo -lopencv_imgcodecs -lopencv_cudawarping -lopencv_cudaimgproc -lopencv_cudafilters -lopencv_video -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_cudaarithm -lopencv_core -lopencv_cudev
+Libs.private: -L-L/home/intel/intelFPGA_pro/17.0/hld/board/a10_ref/linux64 -l -L-L/home/intel/intelFPGA_pro/17.0/hld/host/linux64 -l-Wl,--no-as-needed -lalteracl -laltera_a10_ref_mmd -lelf -L/usr/lib/x86_64-linux-gnu -lpng -lz -ltiff -ljasper -ljpeg -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lgthread-2.0 -ldc1394 -lavcodec-ffmpeg -lavformat-ffmpeg -lavutil-ffmpeg -lswscale-ffmpeg -ldl -lm -lpthread -lrt -L/opt/intel/mkl/lib/intel64 -lmkl_core -lmkl_intel_lp64 -lmkl_sequential -lcudart -lnppc -lnppi -lnpps -lcufft -L-L/usr/local/cuda -l64
+Cflags: -I${includedir_old} -I${includedir_new}

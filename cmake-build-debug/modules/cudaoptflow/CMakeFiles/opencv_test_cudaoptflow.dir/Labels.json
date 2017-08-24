@@ -1,0 +1,26 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/test/test_optflow.cpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaoptflow/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaoptflow", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaoptflow", "AccuracyTest" ],
+		"name" : "opencv_test_cudaoptflow"
+	}
+}

@@ -1,0 +1,9 @@
+From MIT:
+-	DeepTraffic (model to know when to switch lanes on a highway for highest speed): http://selfdrivingcars.mit.edu/deeptraffic/
+	-	Very good pretrained model for DeepTraffic: https://github.com/parilo/DeepTraffic-solution
+-	DeepTesla (model to detect steering angle of wheel from video of car lanes): http://selfdrivingcars.mit.edu/deeptesla/
+
+From Udacity:
+-	Challenge 2: using deep learning to predict steering angles
+	-	https://github.com/udacity/self-driving-car/tree/master/steering-models
+	-	Results: https://github.com/udacity/self-driving-car/tree/master/challenges/challenge-2

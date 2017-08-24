@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_cudastereo
+ PerfTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudastereo/perf/perf_main.cpp
+ Main
+ opencv_cudastereo
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudastereo/perf/perf_stereo.cpp
+ Main
+ opencv_cudastereo
+ PerfTest
+/home/intel/opencv-3.2.0/modules/cudastereo/perf/perf_precomp.hpp
+ Main
+ opencv_cudastereo
+ PerfTest

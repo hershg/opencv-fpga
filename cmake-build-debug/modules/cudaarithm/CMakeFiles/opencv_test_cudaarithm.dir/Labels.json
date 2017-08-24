@@ -1,0 +1,61 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_arithm.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_buffer_pool.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_core.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_element_operations.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_gpumat.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_opengl.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_reductions.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_stream.cpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/cudaarithm/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_cudaarithm", "AccuracyTest" ],
+		"name" : "opencv_test_cudaarithm"
+	}
+}

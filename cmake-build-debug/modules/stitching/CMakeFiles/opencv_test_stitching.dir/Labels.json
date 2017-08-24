@@ -1,0 +1,36 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/stitching/test/ocl/test_warpers.cpp",
+			"labels" : [ "Main", "opencv_stitching", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/stitching/test/test_blenders.cpp",
+			"labels" : [ "Main", "opencv_stitching", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/stitching/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_stitching", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/stitching/test/test_matchers.cpp",
+			"labels" : [ "Main", "opencv_stitching", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/home/intel/opencv-3.2.0/modules/stitching/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_stitching", "AccuracyTest" ]
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_stitching", "AccuracyTest" ],
+		"name" : "opencv_test_stitching"
+	}
+}

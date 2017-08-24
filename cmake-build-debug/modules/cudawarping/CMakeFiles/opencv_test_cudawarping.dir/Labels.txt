@@ -1,0 +1,37 @@
+# Target labels
+ Main
+ opencv_cudawarping
+ AccuracyTest
+# Source files and their labels
+/home/intel/opencv-3.2.0/modules/cudawarping/test/test_main.cpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudawarping/test/test_pyramids.cpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudawarping/test/test_remap.cpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudawarping/test/test_resize.cpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudawarping/test/test_warp_affine.cpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudawarping/test/test_warp_perspective.cpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudawarping/test/interpolation.hpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
+/home/intel/opencv-3.2.0/modules/cudawarping/test/test_precomp.hpp
+ Main
+ opencv_cudawarping
+ AccuracyTest
